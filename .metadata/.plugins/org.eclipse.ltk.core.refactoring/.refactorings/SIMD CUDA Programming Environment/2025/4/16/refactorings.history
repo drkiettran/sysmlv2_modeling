@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SIMD CUDA Programming Environment/Oscal_SP800_53_Rev5_Model.sysml&apos; to &apos;SMIT CUDA.sysml&apos;" description="Rename resource &apos;Oscal_SP800_53_Rev5_Model.sysml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Oscal_SP800_53_Rev5_Model.sysml" name="SMIT CUDA.sysml" stamp="1744885117063" updateReferences="true"/>
+</session>

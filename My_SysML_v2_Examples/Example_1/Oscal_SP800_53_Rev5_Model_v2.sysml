@@ -1,0 +1,112 @@
+package SP800_53_Rev5 {
+	public import ScalarValues;
+	public import ISQSpaceTime::*;
+	  
+	package CommonAttributes{ 
+		attribute def ID :> ScalarValues::String;
+		attribute def Label :> ScalarValues::String;
+		attribute def Version :> ScalarValues::String;
+		attribute def Propose :> ScalarValues::String;
+		attribute def Text :> ScalarValues::String;
+		attribute def Prose :> ScalarValues::String;
+		attribute def HowMany :> ScalarValues::String;
+		attribute def Choice :> ScalarValues::String;
+		attribute def HRef :> ScalarValues::String;
+		attribute def UUID :> ScalarValues::String;
+		attribute def EmailAddress :> ScalarValues::String;
+		attribute def Name :> ScalarValues::String;
+		attribute def Value :> ScalarValues::String;
+		attribute def Namespace :> ScalarValues::String;
+		
+		enum def Class {
+			enum sp800_53A;
+			enum sp800_53;
+			enum family;
+			enum sp800_53Enhancement;
+			enum zeroPadded;
+		}
+		
+		attribute def Property {
+			attribute name : Name;
+			attribute value : Value;
+			attribute class : Class;
+			attribute ns : Namespace;
+		}
+		attribute def Address {
+			attribute addressLines : ScalarValues::String [*];
+			attribute city : ScalarValues::String;
+			attribute _state : ScalarValues::String;
+			attribute postalCode : ScalarValues::String;
+		}
+		
+		attribute def Role {
+			attribute id : ID;
+			attribute title : ScalarValues::String;
+		}
+	}
+	package Catalog{
+		
+		package Metadata {
+			private import CommonAttributes::*;
+
+			part def Party {
+				attribute uuid : UUID;
+				attribute type : ScalarValues::String;
+				attribute emailAddresses : EmailAddress [*];
+				attribute addresses : Address [*];
+			}
+			
+			enum def RoleID {
+				enum creator;
+				enum contact;
+			}	
+
+			part def Metadata {
+				attribute def Revision {
+					attribute title : ScalarValues::String;
+					attribute lastModified : ScalarValues::String;
+					attribute version : Version;
+					attribute oscalVersion : ScalarValues::String;
+					attribute links : Link [*];
+					attribute remarks : Text [*];
+				}
+				attribute def Link {
+					attribute href : HRef;
+					attribute relate : Relate;
+				}
+				enum def Relate {
+					enum versionHistory;
+					enum alternate;
+					enum canonical;
+					enum cprt;
+					enum reference;
+					enum related;
+					enum incorporatedInto;
+					enum movedTo;
+					enum required;
+					enum assessmentFor;
+				}
+				
+				part def ResponsibleParty {
+					attribute roleID : RoleID;
+					attribute partyUUIDs : UUID [*];
+				}
+				
+				attribute title : Text;
+				attribute lastModified : TimeValue;
+				attribute version : Version;
+				attribute oscalVersion : Version;
+				attribute revisions : Revision [*];
+				attribute properties : Property [*];
+				attribute links : Link [*];
+				attribute roles : Role [*];
+				part parties : Party [*];
+				part responsibleParties : ResponsibleParty [*];
+			}
+		}
+		package Groups{}
+		package BackMatter{}
+				
+	}
+	
+}

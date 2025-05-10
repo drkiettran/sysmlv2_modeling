@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="selection" value="attribute def"/>
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="timeval"/>
+			<item value="alias"/>
+			<item value="item"/>
+			<item value="enum"/>
+			<item value="attribute def"/>
+			<item value="string"/>
+			<item value="        public import PortDefinitions::*;"/>
+		</list>
+	</section>
+</section>

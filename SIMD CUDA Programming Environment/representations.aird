@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" uid="_7OddIBtzEfCANr6NEmaJEw" version="15.4.1.202403191723">
+  <semanticResources>SMIT%20CUDA.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/Parts.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Objects.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Base.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Data%20Type%20Library/ScalarValues.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Links.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Occurrences.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Clocks.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/ControlFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/ScalarFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/DataFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/BaseFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Metaobjects.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/KerML.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Performances.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/Transfers.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/SequenceFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Data%20Type%20Library/Collections.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/IntegerFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/RationalFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/RealFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/ComplexFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/NumericalFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/CollectionFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/Items.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/Constraints.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/Ports.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/Actions.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/FeatureReferencingPerformances.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/ControlPerformances.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/TransitionPerformances.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/FlowConnections.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Function%20Library/OccurrenceFunctions.kerml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Systems%20Library/States.sysml</semanticResources>
+  <semanticResources>platform:/resource/sysml.library/Kernel%20Libraries/Kernel%20Semantic%20Library/StatePerformances.kerml</semanticResources>
+  <semanticResources>CUDAProgramming.sysml</semanticResources>
+</viewpoint:DAnalysis>

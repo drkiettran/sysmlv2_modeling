@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;My_SysML_v2_Examples/Example_1/My.sysml&apos; to &apos;Vehicle.sysml&apos;" description="Rename resource &apos;My.sysml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Example_1/My.sysml" name="Vehicle.sysml" stamp="1743253365346" updateReferences="true"/>
+</session>
