@@ -1,15 +1,15 @@
-package TeachingCUDA {
+package TeachingCUDA { 
 	public import ScalarValues;
 	public import ISQSpaceTime::*;
 	
 	part HeterogeneousParallelComputingWithCUDA {
-		part ParalellComputing {
+		part def ParalellComputing {
 			
 		}
-		part HeterogeneousComputing {
+		part def HeterogeneousComputing {
 			
 		}
-		part AnExample {
+		part def AnExample {
 			
 		}
 		
@@ -103,7 +103,7 @@ package TeachingCUDA {
 		}
 	}
 	
-	
+
 	part TuningInstructionLevelPrimitive{
 		
 	}
@@ -117,7 +117,7 @@ package TeachingCUDA {
 
 package TeachingCUDAProgramming {
 	
-	public import CUDAProgramming::HeterogeneousParallelComputingWithCUDA::*;
+	public import TeachingCUDA::HeterogeneousParallelComputingWithCUDA::*;
 	
 	action def SequentialAlgorithmDesign {
 		action understandTheProblem;

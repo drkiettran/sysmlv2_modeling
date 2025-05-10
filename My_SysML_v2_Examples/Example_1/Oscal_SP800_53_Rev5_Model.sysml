@@ -216,7 +216,7 @@ package DHSODP {
 	}
 
 	part def ControlHigh :> Control {
-		attribute parameters : Text;
+		//attribute parameters : Text;
 		attribute values : Text;
 	}
 	part baselineLows : Control [*];
